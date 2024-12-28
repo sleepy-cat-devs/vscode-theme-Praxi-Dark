@@ -1,0 +1,16 @@
+{
+	"name": "Praxi Dark",
+	"colors": {
+		// エディター設定
+		"editor.background": "#397475",
+		"editor.foreground": "#e4f7ff",
+		// サイドバーの設定
+		"sideBarTitle.foreground": "#dbf1fe",
+		"sideBar.background": "#000e14",
+		"sideBar.foreground": "#dbf1fe",
+		"sideBar.border": "#dbf1fe8f",
+		"sideBarSectionHeader.background": "#dbf1fe",
+		"sideBarSectionHeader.foreground": "#000e14"
+	},
+	"tokenColors": []
+}
