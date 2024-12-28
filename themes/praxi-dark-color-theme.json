@@ -1,16 +1,20 @@
 {
 	"name": "Praxi Dark",
+	// 肌色: 00a29f
+	// ピンク: #ff7bac
+	// 赤色： #ff4268
+	// 赤黒: #960038
 	"colors": {
 		// エディター設定
-		"editor.background": "#397475",
+		"editor.background": "#1d2e36",
 		"editor.foreground": "#e4f7ff",
 		// サイドバーの設定
-		"sideBarTitle.foreground": "#dbf1fe",
-		"sideBar.background": "#000e14",
-		"sideBar.foreground": "#dbf1fe",
-		"sideBar.border": "#dbf1fe8f",
-		"sideBarSectionHeader.background": "#dbf1fe",
-		"sideBarSectionHeader.foreground": "#000e14"
+		"sideBarTitle.background": "#ff4268",
+		"sideBarTitle.foreground": "#1d2e36",
+		"sideBar.background": "#397475",
+		"sideBar.foreground": "#e4f7ff",
+		"sideBarSectionHeader.background": "#ff7bac",
+		"sideBarSectionHeader.foreground": "#1d2e36",
 	},
 	"tokenColors": []
 }
