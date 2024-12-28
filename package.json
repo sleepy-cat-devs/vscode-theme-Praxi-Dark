@@ -14,7 +14,7 @@
 			{
 				"label": "Praxi Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Praxi Dark-color-theme.json"
+				"path": "./themes/praxi-dark.json"
 			}
 		]
 	},
