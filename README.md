@@ -1,6 +1,6 @@
 # Praxi Dark Theme
 
-![Praxi Dark Theme Screenshot](images/screenshot.png)
+![Praxi Dark Theme Screenshot](./images/screenshot.png)
 
 ## 概要/ Overview
 
@@ -17,7 +17,7 @@ It is based on the original character Praxi.
 
 Featuring a calming color palette and high contrast for better visibility.
 
-![Praxi Image](images/praxi.png)
+![Praxi Image](./images/praxi.png)
 
 ## インストール方法 / Installation Instructions
 

@@ -1,15 +1,19 @@
 {
 	"name": "praxi-dark",
 	"displayName": "Praxi Dark",
-	"description": "",
+	"description": "The Color theme that inspired by Praxi (Original Character).",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sleepy-cat-devs/vscode-theme-Praxi-Dark.git"
+	},
 	"categories": [
 		"Themes"
 	],
-	"icon": "images/praxi-dark-logo.png",
+	"icon": "./images/praxi-dark-logo.png",
 	"contributes": {
 		"themes": [
 			{
@@ -20,11 +24,11 @@
 		],
 		"assets": {
 			"icons": [
-				"images/praxi-dark-logo.png"
+				"./images/praxi-dark-logo.png"
 			],
 			"screenshots": [
-				"images/screenshot.png",
-				"images/praxi.png"
+				"./images/screenshot.png",
+				"./images/praxi.png"
 			]
 		}
 	},
