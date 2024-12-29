@@ -2,13 +2,14 @@
 	"name": "praxi-dark",
 	"displayName": "Praxi Dark",
 	"description": "",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
 	"categories": [
 		"Themes"
 	],
+	"icon": "images/praxi-dark-logo.png",
 	"contributes": {
 		"themes": [
 			{
@@ -16,7 +17,16 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/praxi-dark-color-theme.json"
 			}
-		]
+		],
+		"assets": {
+			"icons": [
+				"images/praxi-dark-logo.png"
+			],
+			"screenshots": [
+				"images/screenshot.png",
+				"images/praxi.png"
+			]
+		}
 	},
 	"__metadata": {
 		"size": 43974

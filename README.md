@@ -1,16 +1,38 @@
-# praxi-dark README
+# Praxi Dark Theme
 
-## Working with Markdown
+![Praxi Dark Theme Screenshot](images/screenshot.png)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## 概要/ Overview
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### JP
+「**Praxi Dark**」は、Visual Studio Code用のダークカラーテーマです。
+オリジナルキャラクターのPraxiを元に作成しました。
 
-## For more information
+落ち着いた色合いと視認性の高いコントラストが特徴です。
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+### EN
+"**Praxi Dark**" is a dark color theme for Visual Studio Code.
+It is based on the original character Praxi.
+
+Featuring a calming color palette and high contrast for better visibility.
+
+![Praxi Image](images/praxi.png)
+
+## インストール方法 / Installation Instructions
+
+### JP
+
+1. 拡張機能の検索バーに「praxi-dark」と入力
+2. インストールボタンをクリック
+
+### EN
+
+1. Enter "praxi-dark" in the extensions search bar
+2. Click the install button
+
+## サポート
+
+もし質問やバグ報告があれば、[本リポジトリ](https://github.com/sleepy-cat-devs/vscode-theme-Praxi-Dark)でお問い合わせください。
+
+**Enjoy coding with Praxi Dark!**
