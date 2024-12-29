@@ -1,13 +1,6 @@
 {
 	"name": "Praxi Dark",
-	// 肌色: #009e9c
-	// ピンク: #ff7bac
-	// 赤色： #ff4268
-	// 赤黒: #960038
-	// グレー: #1d2e36
-	// info: #8d2255
-	// warning: #ff7bac
-	// error: #e33c63
+	"type": "dark",
 	"colors": {
 		"icon.foreground": "#00c0bc",
 		"focusBorder": "#ff7bac",
@@ -26,9 +19,17 @@
 		"input.foreground": "#e4f7ff",
 		"input.border": "#00c0bc",
 		"input.placeholderForeground": "#e4f7ffbe",
+		// スクロールバーの設定
+		"scrollbarSlider.background": "#ff7bac7f",
+		"scrollbarSlider.hoverBackground": "#ff7bacbf",
+		"scrollbarSlider.activeBackground": "#ff7bac",
+		// ルーラー表示
+		"editorOverviewRuler.findMatchForeground": "#5ecfffc0",
+		"editorOverviewRuler.background": "#004544",
 		// メニュー色
 		"menu.background": "#1d2e36",
 		"menu.selectionBackground": "#8d2255",
+		"menu.separatorBackground": "#ff7bac",
 		"titleBar.activeBackground": "#8d2255",
 		"titleBar.activeForeground": "#e4f7ff",
 		// タブの設定
@@ -36,19 +37,21 @@
 		"tab.border": "#00c0bc",
 		"tab.inactiveBackground": "#0045449d",
 		// エディター設定
-		"editor.background": "#007573",
+		"editor.background": "#006664",
+		// "editor.background": "#007573",
 		"editor.foreground": "#e4f7ff",
 		"editor.selectionBackground": "#004544",
+		"editor.inactiveSelectionBackground": "#00c0bc7f",
 		"editorLineNumber.foreground": "#e4f7ffbe",
 		"editorLineNumber.activeForeground": "#ff7bac",
 		"editor.lineHighlightBackground": "#000e1446",
-		"editor.lineHighlightBorder": "#ff7babd6",
+		"editor.lineHighlightBorder": "#ff7babbf",
 		"editorInfo.background": "#1d2e36d0",
 		"editorInfo.foreground": "#00c0bc",
 		"editorWarning.foreground": "#ff7bab",
-		"editorWarning.background": "#ff7babd0",
+		"editorWarning.background": "#ff7bab3f",
 		"editorError.foreground": "#e33c63",
-		"editorError.background": "#e33c63d0",
+		"editorError.background": "#e33c633f",
 		// エディターグループ設定
 		"editorGroupHeader.tabsBackground": "#1d2e36",
 		"editorGroup.dropBackground": "#1d2e36be",
@@ -62,15 +65,15 @@
 		"editorStickyScroll.background": "#004544",
 		"editorStickyScrollHover.background": "#009e9c",
 		// 括弧設定
-		"editorBracketHighlight.foreground1": "#ff7bac",
-		"editorBracketHighlight.foreground2": "#8497ff",
-		"editorBracketHighlight.foreground3": "#5ecfff",
-		"editorBracketHighlight.foreground4": "#afe7ff",
-		"editorBracketHighlight.foreground5": "#e4f7ff",
+		"editorBracketHighlight.foreground1": "#e4f7ff",
+		"editorBracketHighlight.foreground2": "#ffc5da",
+		"editorBracketHighlight.foreground3": "#00c0bc",
+		"editorBracketHighlight.foreground4": "#e4f7ff",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#e33c63",
 		// サイドバー設定
 		"sideBar.background": "#1d2e36",
 		"sideBar.foreground": "#e4f7ff",
+		"sideBar.border": "#00c0bc",
 		"sideBar.dropBackground": "#1d2e368c",
 		"sideBarTitle.background": "#1d2e36",
 		"sideBarTitle.foreground": "#e4f7ff",
@@ -128,21 +131,56 @@
 		"editorSuggestWidget.selectedIconForeground": "#e4f7ff",
 		"editorSuggestWidget.highlightForeground": "#e33c63",
 		"editorSuggestWidget.focusHighlightForeground": "#e4f7ff",
+		// 検索・置換ウィジェット設定
+		"editorWidget.background": "#1d2e36",
+		"editorWidget.foreground": "#e4f7ff",
+		// ウィジェット背景
+		"editorHoverWidget.background": "#1d2e36",
+		// 検索機能の設定
+		"searchEditor.findMatchBackground": "#000e14",
+		"editor.findMatchBackground": "#5ecfff7f",
+		"editor.findMatchBorder": "#e4f7ff",
+		"editor.findMatchHighlightBackground": "#5ecfff7f",
+		"editor.findMatchHighlightBorder": "#004544",
+		"editor.findRangeHighlightBackground": "#5ecfff7f",
+		// 電球
+		"editorLightBulb.foreground": "#ff7bac",
+		"editorLightBulbAi.foreground": "#ff7bac",
+		"editorLightBulbAutoFix.foreground": "#e33c63",
 		// ミニマップ設定
 		"minimapSlider.background": "#e33c6340",
-		"minimapSlider.hoverBackground": "#e33c6380",
+		"minimapSlider.hoverBackground": "#e33c637f",
 		"minimapSlider.activeBackground": "#e33c63c4",
+		"minimap.findMatchHighlight": "#5ecfff7f",
 		// キーバインド表示の設定
 		"keybindingLabel.background": "#000e14",
 		"keybindingLabel.foreground": "#00c0bc",
 		"keybindingLabel.border": "#00c0bc",
 		"keybindingLabel.bottomBorder": "#00c0bc",
-		// 検索機能の設定
-		"editor.findMatchBackground": "#000e1446",
-		"editor.findMatchBorder": "#e4f7ff",
-		"editor.findMatchHighlightBackground": "#000e1446",
-		"editor.findMatchHighlightBorder": "#004544",
-		"editor.findRangeHighlightBackground": "#000e1446",
+		// 差分表示
+		"diffEditor.insertedTextBackground": "#0045447f",
+		"diffEditor.insertedLineBackground": "#0045445f",
+		"diffEditorGutter.insertedLineBackground": "#000e145f",
+		"diffEditor.removedTextBackground": "#e33c637f",
+		"diffEditor.removedLineBackground": "#e33c635f",
+		"diffEditorGutter.removedLineBackground": "#e33c637f",
+		// デバッグ画面設定
+		"debugToolBar.background": "#000e14",
+		"debugIcon.startForeground": "#00c0bc",
+		"debugIcon.continueForeground": "#00c0bc",
+		"debugIcon.pauseForeground": "#e33c63",
+		"debugIcon.restartForeground": "#e33c63",
+		"debugIcon.stopForeground": "#e33c63",
+		"debugIcon.breakpointForeground": "#e33c63",
+		// ターミナル設定
+		"terminal.background": "#1d2e36",
+		"terminal.foreground": "#00c0bc",
+		"terminal.selectionBackground": "#000e14",
+		"terminal.ansiBlack": "#000e14",
+		"terminal.ansiBrightBlack": "#1d2e36",
+		"terminal.ansiWhite": "#e4f7ff",
+		"terminal.ansiRed": "#e33c63",
+		"terminal.ansiBrightBlue": "#5ecfff",
 	},
 	"tokenColors": [
 		{
@@ -167,6 +205,100 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#1d2e36",
+			}
+		},
+		{
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#e4f7ff7f",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#e4f7ff"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#ffc5da",
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"identifier"
+			],
+			"settings": {
+				"foreground": "#00c0bc",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#00c0bc",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"function",
+				"method"
+			],
+			"settings": {
+				"foreground": "#ffc5da"
+			}
+		},
+		{
+			"scope": [
+				"type",
+				"class"
+			],
+			"settings": {
+				"foreground": "#48a2a1",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"punctuation"
+			],
+			"settings": {
+				"foreground": "#ffc5dabf"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#f49cc4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"invalid"
+			],
+			"settings": {
+				"foreground": "#e33c63",
+				"fontStyle": "bold"
 			}
 		}
 	]
