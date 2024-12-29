@@ -1,20 +1,173 @@
 {
 	"name": "Praxi Dark",
-	// 肌色: 00a29f
+	// 肌色: #009e9c
 	// ピンク: #ff7bac
 	// 赤色： #ff4268
 	// 赤黒: #960038
+	// グレー: #1d2e36
+	// info: #8d2255
+	// warning: #ff7bac
+	// error: #e33c63
 	"colors": {
+		"icon.foreground": "#00c0bc",
+		"focusBorder": "#ff7bac",
+		// ボタン
+		"button.background": "#000e14",
+		"button.foreground": "#e4f7ff",
+		"button.border": "#00c0bc",
+		"button.hoverBackground": "#004544",
+		// ドロップダウンリスト
+		"dropdown.background": "#1d2e36",
+		"dropdown.foreground": "#e4f7ff",
+		"dropdown.border": "#00c0bc",
+		"dropdown.listBackground": "#1d2e36",
+		// テキストボックスの設定
+		"input.background": "#1d2e36",
+		"input.foreground": "#e4f7ff",
+		"input.border": "#00c0bc",
+		"input.placeholderForeground": "#e4f7ffbe",
+		// メニュー色
+		"menu.background": "#1d2e36",
+		"menu.selectionBackground": "#8d2255",
+		"titleBar.activeBackground": "#8d2255",
+		"titleBar.activeForeground": "#e4f7ff",
+		// タブの設定
+		"tab.activeBackground": "#004544",
+		"tab.border": "#00c0bc",
+		"tab.inactiveBackground": "#0045449d",
 		// エディター設定
-		"editor.background": "#1d2e36",
+		"editor.background": "#007573",
 		"editor.foreground": "#e4f7ff",
-		// サイドバーの設定
-		"sideBarTitle.background": "#ff4268",
-		"sideBarTitle.foreground": "#1d2e36",
-		"sideBar.background": "#397475",
+		"editor.selectionBackground": "#004544",
+		"editorLineNumber.foreground": "#e4f7ffbe",
+		"editorLineNumber.activeForeground": "#ff7bac",
+		"editor.lineHighlightBackground": "#000e1446",
+		"editor.lineHighlightBorder": "#ff7babd6",
+		"editorInfo.background": "#1d2e36d0",
+		"editorInfo.foreground": "#00c0bc",
+		"editorWarning.foreground": "#ff7bab",
+		"editorWarning.background": "#ff7babd0",
+		"editorError.foreground": "#e33c63",
+		"editorError.background": "#e33c63d0",
+		// エディターグループ設定
+		"editorGroupHeader.tabsBackground": "#1d2e36",
+		"editorGroup.dropBackground": "#1d2e36be",
+		// エディターガター設定
+		"editorGutter.background": "#004544",
+		"editorGutter.addedBackground": "#ff7bac",
+		"editorGutter.modifiedBackground": "#009e9c",
+		"editorGutter.deletedBackground": "#e33c63",
+		"editorGutter.foldingControlForeground": "#e4f7ff",
+		// エディター固定スクロール設定
+		"editorStickyScroll.background": "#004544",
+		"editorStickyScrollHover.background": "#009e9c",
+		// 括弧設定
+		"editorBracketHighlight.foreground1": "#ff7bac",
+		"editorBracketHighlight.foreground2": "#8497ff",
+		"editorBracketHighlight.foreground3": "#5ecfff",
+		"editorBracketHighlight.foreground4": "#afe7ff",
+		"editorBracketHighlight.foreground5": "#e4f7ff",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#e33c63",
+		// サイドバー設定
+		"sideBar.background": "#1d2e36",
 		"sideBar.foreground": "#e4f7ff",
-		"sideBarSectionHeader.background": "#ff7bac",
-		"sideBarSectionHeader.foreground": "#1d2e36",
+		"sideBar.dropBackground": "#1d2e368c",
+		"sideBarTitle.background": "#1d2e36",
+		"sideBarTitle.foreground": "#e4f7ff",
+		"sideBarSectionHeader.background": "#000e14",
+		"sideBarSectionHeader.foreground": "#00c0bc",
+		// リスト設定
+		"list.hoverBackground": "#000e14",
+		"list.warningForeground": "#ff7bac",
+		"list.errorForeground": "#e33c63",
+		"list.highlightForeground": "#e33c63",
+		"list.focusHighlightForeground": "#e4f7ff",
+		// ステータスバー設定
+		"statusBar.background": "#8d2255",
+		"statusBar.foreground": "#e4f7ff",
+		"statusBar.border": "#ff7bac",
+		"statusBar.debuggingBackground": "#00c0bc",
+		"statusBar.debuggingForeground": "#000e14",
+		"statusBar.debuggingBorder": "#000e14",
+		"statusBar.noFolderBackground": "#ff7bac",
+		"statusBar.noFolderForeground": "#8d2255",
+		"statusBar.noFolderBorder": "#8d2255",
+		"statusBarItem.remoteBackground": "#00c0bc",
+		"statusBarItem.remoteForeground": "#000e14",
+		"statusBarItem.remoteHoverBackground": "#e33c63",
+		"statusBarItem.remoteHoverForeground": "#e4f7ff",
+		// アクティビティバー設定
+		"activityBar.background": "#8d2255",
+		"activityBar.foreground": "#ffc5da",
+		"activityBar.inactiveForeground": "#e4f7ffb5",
+		"activityBar.border": "#ff7bac",
+		"activityBarBadge.background": "#007573",
+		"activityBarBadge.foreground": "#e4f7ff",
+		// パネル設定
+		"panel.background": "#004544",
+		"panel.border": "#00c0bc",
+		"panelTitle.activeBorder": "#ff7bac",
+		// gitの色設定
+		"gitDecoration.addedResourceForeground": "#ff7bac",
+		"gitDecoration.modifiedResourceForeground": "#009e9c",
+		"gitDecoration.renamedResourceForeground": "#009e9c",
+		"gitDecoration.deletedResourceForeground": "#8d2255",
+		"gitDecoration.conflictingResourceForeground": "#e33c63",
+		"gitDecoration.untrackedResourceForeground": "#000e14",
+		"gitDecoration.ignoredResourceForeground": "#000e14",
+		// コマンドパレット設定
+		"quickInput.background": "#1d2e36",
+		"quickInput.foreground": "#e4f7ff",
+		"quickInputList.focusBackground": "#8d2255",
+		"quickInputList.focusIconForeground": "#8d2255",
+		// 入力補助画面の設定
+		"editorSuggestWidget.border": "#e4f7ff",
+		"editorSuggestWidget.background": "#1d2e36",
+		"editorSuggestWidget.foreground": "#e4f7ff",
+		"editorSuggestWidget.selectedBackground": "#8d2255",
+		"editorSuggestWidget.selectedIconForeground": "#e4f7ff",
+		"editorSuggestWidget.highlightForeground": "#e33c63",
+		"editorSuggestWidget.focusHighlightForeground": "#e4f7ff",
+		// ミニマップ設定
+		"minimapSlider.background": "#e33c6340",
+		"minimapSlider.hoverBackground": "#e33c6380",
+		"minimapSlider.activeBackground": "#e33c63c4",
+		// キーバインド表示の設定
+		"keybindingLabel.background": "#000e14",
+		"keybindingLabel.foreground": "#00c0bc",
+		"keybindingLabel.border": "#00c0bc",
+		"keybindingLabel.bottomBorder": "#00c0bc",
+		// 検索機能の設定
+		"editor.findMatchBackground": "#000e1446",
+		"editor.findMatchBorder": "#e4f7ff",
+		"editor.findMatchHighlightBackground": "#000e1446",
+		"editor.findMatchHighlightBorder": "#004544",
+		"editor.findRangeHighlightBackground": "#000e1446",
 	},
-	"tokenColors": []
+	"tokenColors": [
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#1d2e36"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#ff7bac",
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#e33c63",
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#1d2e36",
+			}
+		}
+	]
 }
