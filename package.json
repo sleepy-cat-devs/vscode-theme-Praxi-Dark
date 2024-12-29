@@ -3,6 +3,7 @@
 	"displayName": "Praxi Dark",
 	"description": "The Color theme that inspired by Praxi (Original Character).",
 	"version": "1.0.0",
+	"publisher": "sleepy-cat",
 	"engines": {
 		"vscode": "^1.96.0"
 	},
