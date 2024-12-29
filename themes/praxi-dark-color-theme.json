@@ -8,7 +8,7 @@
 		"button.background": "#000e14",
 		"button.foreground": "#e4f7ff",
 		"button.border": "#00c0bc",
-		"button.hoverBackground": "#004544",
+		"button.hoverBackground": "#006664",
 		// ドロップダウンリスト
 		"dropdown.background": "#1d2e36",
 		"dropdown.foreground": "#e4f7ff",
@@ -25,7 +25,7 @@
 		"scrollbarSlider.activeBackground": "#ff7bac",
 		// ルーラー表示
 		"editorOverviewRuler.findMatchForeground": "#5ecfffc0",
-		"editorOverviewRuler.background": "#004544",
+		"editorOverviewRuler.background": "#006664",
 		// メニュー色
 		"menu.background": "#1d2e36",
 		"menu.selectionBackground": "#8d2255",
@@ -33,14 +33,13 @@
 		"titleBar.activeBackground": "#8d2255",
 		"titleBar.activeForeground": "#e4f7ff",
 		// タブの設定
-		"tab.activeBackground": "#004544",
+		"tab.activeBackground": "#006664",
 		"tab.border": "#00c0bc",
-		"tab.inactiveBackground": "#0045449d",
+		"tab.inactiveBackground": "#0066649d",
 		// エディター設定
-		"editor.background": "#006664",
-		// "editor.background": "#007573",
+		"editor.background": "#004544",
 		"editor.foreground": "#e4f7ff",
-		"editor.selectionBackground": "#004544",
+		"editor.selectionBackground": "#006664",
 		"editor.inactiveSelectionBackground": "#00c0bc7f",
 		"editorLineNumber.foreground": "#e4f7ffbe",
 		"editorLineNumber.activeForeground": "#ff7bac",
@@ -56,13 +55,13 @@
 		"editorGroupHeader.tabsBackground": "#1d2e36",
 		"editorGroup.dropBackground": "#1d2e36be",
 		// エディターガター設定
-		"editorGutter.background": "#004544",
+		"editorGutter.background": "#006664",
 		"editorGutter.addedBackground": "#ff7bac",
 		"editorGutter.modifiedBackground": "#009e9c",
 		"editorGutter.deletedBackground": "#e33c63",
 		"editorGutter.foldingControlForeground": "#e4f7ff",
 		// エディター固定スクロール設定
-		"editorStickyScroll.background": "#004544",
+		"editorStickyScroll.background": "#006664",
 		"editorStickyScrollHover.background": "#009e9c",
 		// 括弧設定
 		"editorBracketHighlight.foreground1": "#e4f7ff",
@@ -107,17 +106,17 @@
 		"activityBarBadge.background": "#007573",
 		"activityBarBadge.foreground": "#e4f7ff",
 		// パネル設定
-		"panel.background": "#004544",
+		"panel.background": "#006664",
 		"panel.border": "#00c0bc",
 		"panelTitle.activeBorder": "#ff7bac",
 		// gitの色設定
 		"gitDecoration.addedResourceForeground": "#ff7bac",
-		"gitDecoration.modifiedResourceForeground": "#009e9c",
-		"gitDecoration.renamedResourceForeground": "#009e9c",
+		"gitDecoration.untrackedResourceForeground": "#ff7bac",
+		"gitDecoration.modifiedResourceForeground": "#00c0bc",
+		"gitDecoration.renamedResourceForeground": "#00c0bc",
 		"gitDecoration.deletedResourceForeground": "#8d2255",
 		"gitDecoration.conflictingResourceForeground": "#e33c63",
-		"gitDecoration.untrackedResourceForeground": "#000e14",
-		"gitDecoration.ignoredResourceForeground": "#000e14",
+		"gitDecoration.ignoredResourceForeground": "#e4f7ff7f",
 		// コマンドパレット設定
 		"quickInput.background": "#1d2e36",
 		"quickInput.foreground": "#e4f7ff",
@@ -141,7 +140,7 @@
 		"editor.findMatchBackground": "#5ecfff7f",
 		"editor.findMatchBorder": "#e4f7ff",
 		"editor.findMatchHighlightBackground": "#5ecfff7f",
-		"editor.findMatchHighlightBorder": "#004544",
+		"editor.findMatchHighlightBorder": "#006664",
 		"editor.findRangeHighlightBackground": "#5ecfff7f",
 		// 電球
 		"editorLightBulb.foreground": "#ff7bac",
@@ -158,8 +157,8 @@
 		"keybindingLabel.border": "#00c0bc",
 		"keybindingLabel.bottomBorder": "#00c0bc",
 		// 差分表示
-		"diffEditor.insertedTextBackground": "#0045447f",
-		"diffEditor.insertedLineBackground": "#0045445f",
+		"diffEditor.insertedTextBackground": "#0066647f",
+		"diffEditor.insertedLineBackground": "#0066645f",
 		"diffEditorGutter.insertedLineBackground": "#000e145f",
 		"diffEditor.removedTextBackground": "#e33c637f",
 		"diffEditor.removedLineBackground": "#e33c635f",
@@ -209,28 +208,12 @@
 		},
 		{
 			"scope": [
-				"comment"
+				"comment",
+				"punctuation.definition.comment"
 			],
 			"settings": {
 				"foreground": "#e4f7ff7f",
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"string"
-			],
-			"settings": {
-				"foreground": "#e4f7ff"
-			}
-		},
-		{
-			"scope": [
-				"keyword",
-				"storage"
-			],
-			"settings": {
-				"foreground": "#ffc5da",
 			}
 		},
 		{
@@ -245,7 +228,33 @@
 		},
 		{
 			"scope": [
-				"constant"
+				"string"
+			],
+			"settings": {
+				"foreground": "#e4f7ff",
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"keyword.other.unit",
+				"keyword.other",
+				"constant.other.color",
+				"punctuation.definition.constant.css",
+			],
+			"settings": {
+				"foreground": "#e4f7ff",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"type",
+				"class"
 			],
 			"settings": {
 				"foreground": "#00c0bc",
@@ -255,41 +264,82 @@
 		{
 			"scope": [
 				"function",
-				"method"
-			],
-			"settings": {
-				"foreground": "#ffc5da"
-			}
-		},
-		{
-			"scope": [
-				"type",
-				"class"
-			],
-			"settings": {
-				"foreground": "#48a2a1",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-				"punctuation"
-			],
-			"settings": {
-				"foreground": "#ffc5dabf"
-			}
-		},
-		{
-			"scope": [
+				"method",
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
 			],
 			"settings": {
-				"foreground": "#f49cc4",
+				"foreground": "#ff7bac",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"storage",
+				"meta.tag",
+				"punctuation.definition",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"meta.property-value",
+			],
+			"settings": {
+				"foreground": "#ffc5da",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag",
+				"meta.separator",
+			],
+			"settings": {
+				"foreground": "#ff7bac",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"support.type.property-name",
+				"meta.link.inline",
+				"meta.image.inline",
+			],
+			"settings": {
+				"foreground": "#00c0bc",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python Token",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#00c0bc",
 			}
 		},
 		{
