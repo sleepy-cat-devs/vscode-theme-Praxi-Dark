@@ -33,6 +33,12 @@ Featuring a calming color palette and high contrast for better visibility.
 
 ## サポート
 
-もし質問やバグ報告があれば、[本リポジトリ](https://github.com/sleepy-cat-devs/vscode-theme-Praxi-Dark)でお問い合わせください。
+### JP
+もし質問やバグ報告があれば、[本リポジトリ](https://github.com/sleepy-cat-devs/vscode-theme-Praxi-Dark/issues)でお問い合わせください。
+
+### EN
+If you have any questions or bug reports, please reach out on [the repository](https://github.com/sleepy-cat-devs/vscode-theme-Praxi-Dark/issues).
+
+
 
 **Enjoy coding with Praxi Dark!**
