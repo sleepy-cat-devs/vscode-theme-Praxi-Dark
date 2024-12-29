@@ -114,7 +114,7 @@
 		"gitDecoration.untrackedResourceForeground": "#ff7bac",
 		"gitDecoration.modifiedResourceForeground": "#00c0bc",
 		"gitDecoration.renamedResourceForeground": "#00c0bc",
-		"gitDecoration.deletedResourceForeground": "#8d2255",
+		"gitDecoration.deletedResourceForeground": "#ff7bac",
 		"gitDecoration.conflictingResourceForeground": "#e33c63",
 		"gitDecoration.ignoredResourceForeground": "#e4f7ff7f",
 		// コマンドパレット設定
